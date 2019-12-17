@@ -5,7 +5,7 @@ const controller = require("../controllers/hospitaisController")
 
 
 router.get('', controller.getAll)
-router.post ('', controller.addHospitais)
+router.post ('/', controller.addHospitais)
 router.get('/:id', controller.getById)
 router.patch('/:id', controller.update)
 router.delete('/:id', controller.remove)

@@ -29,7 +29,7 @@ const getById = (request, response) => {
   })
 }
 
-const add = (request, response) => {
+const addGrupos = (request, response) => {
   const novoGrupo = new gruposModel(request.body)
 
   novoGrupo.save((error) => {
@@ -84,7 +84,7 @@ const update = (request, response) => {
 module.exports = {
   getAll,
   getById,
-  add,
+  addGrupos,
   remove,
   update
 }

@@ -1,6 +1,6 @@
 const { connect } = require('../models/repository')
 const hospitaisModel = require('../models/hospitaisSchema')
-const { gruposModel } = require('../models/gruposSchema')
+// const { gruposModel } = require('../models/gruposSchema')
 
 
 connect()
@@ -32,7 +32,7 @@ const getById = (request, response) => {
   })
 }
 
-const add = (request, response) => {
+const addHospitais = (request, response) => {
   const novoHospital = new hospitaisModel(request.body)
 
   novoHospital.save((error) => {
@@ -88,7 +88,7 @@ const update = (request, response) => {
 module.exports = {
   getAll,
   getById,
-  add,
+  addHospitais,
   remove,
   update,
 }

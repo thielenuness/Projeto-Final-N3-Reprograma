@@ -1,7 +1,7 @@
 {
   "name": "reprograma-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repositório com o projeto final do curso intensivo de Back End Reprograma desenvolvido por Thiele Nunes.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thielenuness/Projeto-Final-N3-Reprograma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thielenuness/Projeto-Final-N3-Reprograma/issues"
+  },
+  "homepage": "https://github.com/thielenuness/Projeto-Final-N3-Reprograma#readme"
 }

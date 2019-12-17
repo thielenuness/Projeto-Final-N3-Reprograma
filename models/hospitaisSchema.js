@@ -9,6 +9,6 @@ const hospitaisSchema = new Schema({
 })
 
 
-const ospitaisModel = mongoose.model('hospitais', hospitaisSchema);
+const hospitaisModel = mongoose.model('hospitais', hospitaisSchema);
 
 module.exports = hospitaisModel;
